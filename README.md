@@ -30,3 +30,18 @@ Before running the project, ensure you have the following installed:
 ---
 
 ## Project Structure
+├── Anomaly_Detection_Code.ipynb # Main notebook with model training and evaluation
+├── requirements.txt # Python dependencies
+├── Dataset.xlsx # Dataset used in the project
+├── README.md # Project documentation
+
+---
+
+## Results
+- **Benchmark (MVG)**: High recall but low precision.  
+- **Random Forest**: Balanced performance with MCC optimization.  
+- **Autoencoder**: Captures structure but underperforms compared to RF.  
+- **LSTM Autoencoder**: Best-performing model with **Precision ~0.92, Recall ~0.99, F1 ~0.96**.  
+- **Interpretability**: Feature importance aligns with economic intuition, confirming robustness of results.
+
+

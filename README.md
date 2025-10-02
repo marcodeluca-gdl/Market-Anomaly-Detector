@@ -30,10 +30,12 @@ Before running the project, ensure you have the following installed:
 ---
 
 ## Project Structure
-'''├── Anomaly_Detection_Code.ipynb # Main notebook with model training and evaluation'''
-├── requirements.txt # Python dependencies
-├── Dataset.xlsx # Dataset used in the project
-├── README.md # Project documentation
+'''
+├── Anomaly_Detection_Code.ipynb                   # Main notebook with model training and evaluation
+├── requirements.txt                               # Python dependencies
+├── Dataset.xlsx                                   # Dataset used in the project
+├── README.md                                      # Project documentation
+'''
 
 ---
 
